@@ -8,7 +8,7 @@ const Home = () => {
         <Hero></Hero>
       </section>
 
-      <section id="about" className="h-screen flex items-center justify-center bg-gray-300">
+      <section id="about" className="h-screen flex items-center justify-center">
         <About></About>
       </section>
 

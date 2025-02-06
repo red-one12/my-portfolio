@@ -7,8 +7,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="navbar border-b-2 border-gray-100 fixed top-0 left-0 w-full bg-white shadow-md z-50">
-      {/* Logo */}
+    <div className="navbar border-b-2 border-gray-100 fixed top-0 left-0 bg-white shadow-md z-50">
+   
       <div className="navbar-start flex items-center">
         <a href="#">
           <img className="w-12" src={myLogo} alt="Logo" />
