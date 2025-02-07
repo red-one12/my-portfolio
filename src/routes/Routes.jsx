@@ -5,6 +5,7 @@ import MainLayout from "../layout/MainLayout";
 import Home from "../pages/Home";
 import About from "../components/About";
 import Skills from "../components/Skills";
+import ProjectDetail from "../components/ProjectDetails";
 
 
 const router = createBrowserRouter([
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       }
     ]
   },
+  {
+    path: '/project/:id',
+    element: <ProjectDetail></ProjectDetail>
+  }
 ]);
 
 export default router;

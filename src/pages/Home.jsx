@@ -1,27 +1,30 @@
 import About from "../components/About";
+import Contact from "../components/Contact";
 import Hero from "../components/Hero";
+import Projects from "../components/Projects";
+import Skills from "../components/Skills";
 
 const Home = () => {
   return (
     <div>
-      <section id="home" className="h-screen mb-20">
+      <section id="home" className="mb-20">
         <Hero></Hero>
       </section>
 
-      <section id="about" className="h-screen flex items-center justify-center">
+      <section id="about" className="flex items-center justify-center">
         <About></About>
       </section>
 
-      <section id="skills" className="h-screen flex items-center justify-center bg-gray-400">
-        <h1 className="text-3xl">My Skills</h1>
+      <section id="skills" className="flex items-center justify-center">
+        <Skills></Skills>
       </section>
 
-      <section id="projects" className="h-screen flex items-center justify-center bg-gray-500">
-        <h1 className="text-3xl">Projects</h1>
+      <section id="projects" className="flex items-center justify-center">
+        <Projects></Projects>
       </section>
 
-      <section id="contact" className="h-screen flex items-center justify-center bg-gray-600">
-        <h1 className="text-3xl">Contact Me</h1>
+      <section id="contact" className="h-screen flex items-center justify-center">
+        <Contact></Contact>
       </section>
     </div>
   );
